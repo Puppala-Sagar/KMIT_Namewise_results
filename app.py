@@ -6,7 +6,7 @@ import pandas as pd
 app = Flask(__name__)
 
 try:
-    df = pd.read_excel(r"C:\Users\sagar\OneDrive\Desktop\projects\results\yonus_2026.xlsx")
+    df = pd.read_excel(r"yonus_2026.xlsx")
 except FileNotFoundError:
     print("Error: Excel file not found.")
     exit()
