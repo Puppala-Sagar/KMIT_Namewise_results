@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+import openpyxl
 
 app = Flask(__name__)
 
